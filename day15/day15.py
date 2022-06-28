@@ -1,8 +1,5 @@
-from locale import currency
 from intcode import Intcode
-from random import sample
 import os
-import sys
 
 with open("input.txt", "r") as f:
     lines = [l.strip() for l in f.readlines()]
