@@ -42,7 +42,7 @@ N_CARDS = 119315717514047
 N_TIMES = 101741582076661
 
 # I tried going backwards to see if there's a repeat somewhere and there wasn't (probably the reverse instructions were wrong anyway)
-# Had to resort to reddit to figure this out https://www.reddit.com/r/adventofcode/comments/ee0rqi/comment/fbnkaju/
+# Had to resort to reddit to figure this out https://www.reddit.com/r/adventofcode/comments/ee0rqi/comment/fbnifwk/
 
 def f(idx, instrs):
     for ins in instrs[::-1]:
